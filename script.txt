@@ -1,0 +1,45 @@
+# background:(background image name)
+# audio:(audio file name)
+# img:(image file name)%onClick:(Which click to place image)%%coordinates:(x coordinate),(y coordinate)%%scale:(x scale), (y, scale)%
+# Place your text here (up to 5 lines)
+# %end% (this marks the end of the current textbox
+
+background:coffee background.jpg
+audio:Lazy-Afternoon.mp3
+img:poly-turtle.jpg%onClick:1%%coordinates:50,50%%scale:320,180%
+img:poly-turtle.jpg%onClick:2%%coordinates:200,50%%scale:320,180%
+img:poly-turtle.jpg%onClick:3%%coordinates:350,50%%scale:320,180%
+img:poly-turtle.jpg%onClick:4%%coordinates:500,50%%scale:320,180%
+img:poly-turtle.jpg%onClick:5%%coordinates:650,50%%scale:320,180%
+img:poly-turtle.jpg%onClick:8%%coordinates:300,300%%scale:640,360%
+Hi there. This is a test for a visual game engine built from pygame!
+You create scene scripts in the scripts.txt file following the format,
+and this engine will auto generate the visual game for you including backgrounds and scene audio
+%end%
+
+background:Phase2 Dorms.jpg
+This is a new scene.
+The player must click to continue to the next dialog option.
+You can only have upto 5 lines atm as that's just what fits the sprite/screen lol
+%end%
+
+background:poly-turtle.jpg
+Turtle go brrrrrrr
+brrr
+brrrrr
+img:poly-turtle.jpg%onClick:8%%coordinates:300,300%%scale:640,360%
+brrrrrrrrr
+brrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+%end%
+
+background:poly-waterfront.jpg
+This isn't anything to complex as I just spent a few hours making it lol
+But technically you could use this to make an infinite amount of scenes that could tell a linear story
+%end%
+
+background:poly-waterfront-night.jpg
+img:poly-turtle.jpg%onClick:6%%coordinates:50,50%%scale:320,180%
+Test Test
+This is a test script
+I am a good programmer pog
+%end%
